@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: black;
+	font-family: "Roboto", sans-serif;
+}
+
+.nav {
+	display: flex;
+	background-color: #6f38c5;
+	min-height: 50px;
+	align-items: center;
+	color: white;
+	gap: 10px;
+	cursor: pointer;
+}
+
+a{
+	color: white;
+}
+
+.list_container {
+	display: flex;
+	width: 100%;
+	padding: 10px;
+}
+
+.list_left {
+	border: 1px solid black;
+	flex: 0.4;
+	display: flex;
+}
+
+.list_container .list_left ion-icon {
+	margin-top: 2%;
+	margin-left: 10px;
+}
+ion-icon {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.list_hours {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.list_right {
+	border: 1px solid black;
+	flex: 0.6;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+}
+
+.list_right .time h3,
+.list_right .number h3,
+.list_right .flight_code h3,
+.list_right .airplaine h3 {
+	font-size: small;
+}
+
+.list_right .time p,
+.list_right .number p,
+.list_right .flight_code p {
+	font-size: smaller;
+	color: gray;
+}
+
+.booking .flight_details {
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px;
+	max-width: 500px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.booking form {
+	padding: 10px;
+	max-width: 320px;
+	margin: 0 auto;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	border: 1px solid black;
+}
+
+.booking .form_group {
+	width: 100%;
+	display: flex;
+
+	justify-content: space-between;
+}
+
+.booking form button {
+	display: block;
+	width: 100%;
+	border-radius: 18px;
+	border: none;
+	height: 30px;
+	background-color: #6f38c5;
+	color: white;
+}
